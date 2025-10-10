@@ -1,0 +1,28 @@
+# Example Terraform Variables
+# Copy this file to terraform.tfvars and customize
+
+# AWS Configuration
+aws_region     = "us-east-1"
+aws_account_id = "123456789012"  # Replace with your AWS account ID
+
+# S3 Bucket (must be globally unique)
+bucket_name = "sagemaker-forecasting-us-east-1-123456789012"
+
+# Project Configuration
+project_name           = "forecasting-pipeline"
+code_interpreter_name  = "forecasting_code_interpreter"
+
+# SageMaker Instance Types
+sagemaker_instance_type           = "ml.m5.xlarge"      # Training
+sagemaker_inference_instance_type = "ml.m5.xlarge"      # Inference
+
+# Networking (optional)
+enable_vpc = false  # Set to true for VPC isolation
+
+# Tags
+tags = {
+  Project     = "intelligent-forecasting"
+  Environment = "production"
+  ManagedBy   = "terraform"
+  Owner       = "your-team"
+}
