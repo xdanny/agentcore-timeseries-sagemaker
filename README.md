@@ -18,6 +18,12 @@ An **intelligent AI agent** that automatically analyzes time series data, engine
 - 🚀 **One-click deployment** to production endpoints
 - 📊 **Interactive reports** with Plotly visualizations and confidence intervals
 
+## 🎬 Demo
+
+![Intelligent Forecasting System Demo](docs/demo.gif)
+
+*Complete 7-step workflow: Upload data → Advanced EDA → Feature recommendations → Feature engineering → Hyperparameter tuning → Model training → Deployment & forecast report generation*
+
 ## 🏗️ System Architecture
 
 ```mermaid
